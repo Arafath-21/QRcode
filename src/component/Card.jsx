@@ -3,7 +3,7 @@ import qrcode from '../assets/images/image-qr-code.png'
 
 function Card() {
   return <>
-        <div className="card">
+        <div className="card" role='card'>
           <img src={qrcode} className="card-img-top" alt="qr code"/>
           <div className="card-body">
             <h1 className="card-title">Improve your front-end skills by building projects</h1>
